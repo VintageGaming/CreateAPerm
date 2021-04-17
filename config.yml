@@ -1,0 +1,3 @@
+gamemode:
+  permission: minecraft.command.gamemode
+  custom: cmd.gm

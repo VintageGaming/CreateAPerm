@@ -1,0 +1,16 @@
+main: com.VintageGaming.CreateAPerm.PermMain
+name: CreateAPerm
+author: VintageGaming
+version: 1.2
+description: Create a permission for a command
+
+commands:
+  cap:
+    usage: /cap <add | remove> <Command_Name> <Regular_Permission> <Custom_Permission>
+    description: Create or Remove a Custom Permission
+
+permissions:
+  createaperm.create:
+    description: Allow a Player to make a permission for a command.
+  createaperm.remove:
+    description: Allow a Player to remove a Custom Permission
